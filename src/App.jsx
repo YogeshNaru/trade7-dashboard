@@ -19,7 +19,7 @@ function App() {
     window.history.replaceState({}, document.title, "/"); // remove token from url
 
     if (!token) {
-      window.location.href = "trade7-frontend.vercel.app/login";
+      window.location.href = "https://trade7-frontend.vercel.app/login";
     }
   }, []);
   return (

@@ -24,7 +24,7 @@ const Menu = () => {
     toast.success("Logged out 👋");
 
     setTimeout(() => {
-      window.location.href = "trade7-frontend.vercel.app/login";
+      window.location.href = "https://trade7-frontend.vercel.app/login";
     }, 1500);
   };
 
